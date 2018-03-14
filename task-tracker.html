@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>Task-Tracker</title>
+		<meta name="viewport" content="width=device-width; initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<script type="text/javascript" src="jquery.js"></script>
+		<script type="text/javascript" src="script.js"></script>
+	</head>
+	<body>
+		<div>
+			<header>
+				<p>Task-Tracker</p>
+				<div>v 2.0</div>
+			</header>
+			<div class= "content">
+				<ul>
+				<li class="border-r">
+					<div class="fs-22">Create a Task</div>
+					<div>
+						<p>Task Name</p>
+						<input name="textname" type="text"></input>
+					</div>
+					<div>
+						<p>Date</p>
+						<input name="date" type="text"></input>
+					</div>
+					<div>
+						<p>Assigned To</p>
+						<input name="assigned" type="text"></input>
+					</div>
+					<div>
+					<!-- <input type="submit" name="submit" value="Submit"> -->
+					<input class="search-button" type="button" onclick="clickme()" value="Submit"/>
+				</div>
+			</li>
+			<li class="Pl-30">
+				<div class="fs-22">Existing tasks</div>
+				<div class="table-grid"></div>
+			</li>
+			</ul>
+		</div>
+	</body>
+</html>
