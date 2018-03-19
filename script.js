@@ -17,11 +17,11 @@ loadData();
 });
 
 function clickme() {
-		var data1 = {};
-	data1['name'] = $('input[name=textname]').val();
-	data1['date'] = $('input[name=date]').val();
-	data1['assigned'] = $('input[name=assigned]').val();
-	data.push(data1);
+		var datax = {};
+	datax['name'] = $('input[name=textname]').val();
+	datax['date'] = $('input[name=date]').val();
+	datax['assigned'] = $('input[name=assigned]').val();
+	data.push(datax);
 	localStorage.setItem('dat', JSON.stringify(data));
  	loadData();
 }
